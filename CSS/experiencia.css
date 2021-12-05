@@ -84,6 +84,13 @@
   font-size: .875rem;
   line-height: 1.4;
   border-radius: 4px;
-  background: #fff;
+  background-color: #fff;
   padding: 5px 10px;
+}
+
+@media(max-width:800px){
+  .experiencia{
+    grid-template-columns:  1fr ;
+    gap: 40px;
+  }
 }
