@@ -36,6 +36,10 @@
 }
 
 .empresa:hover{
+<<<<<<< HEAD
+=======
+  transition: 0.2s;
+>>>>>>> 3eab6784dab5fbd8483cbff10d749ddfea098635
   border-right: #76B6F1 solid 4px ;
 }
 

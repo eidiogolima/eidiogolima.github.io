@@ -54,8 +54,13 @@
     content: "";
     top: -55px;
     left: -53px;
+<<<<<<< HEAD
   }
 
+=======
+
+  }
+>>>>>>> 3eab6784dab5fbd8483cbff10d749ddfea098635
 }
 
 @media (max-width: 400px){
