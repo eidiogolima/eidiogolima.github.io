@@ -24,7 +24,7 @@
   background:url('../assets/img/detalhe.svg') no-repeat center;
   position: absolute;
   top: -55px;
-  left: -53px;
+  left: -50px;
   z-index: -1;
 }
 
@@ -49,6 +49,13 @@
   .introducao h1{
     font-size: 2rem;
   }
+
+  .introducao h1::before{
+    content: "";
+    top: -55px;
+    left: -53px;
+  }
+
 }
 
 @media (max-width: 400px){
