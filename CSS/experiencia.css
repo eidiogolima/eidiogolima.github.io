@@ -33,6 +33,8 @@
   margin-bottom: 20px;
   border-radius: 4px;
   position: relative;
+  border-bottom: 3px solid  white;
+  transition: 0.3s;
 
 }
 
@@ -83,6 +85,29 @@
   background-color: #fff;
   padding: 5px 10px;
 }
+
+.empresa:hover{
+  border-bottom: 3px solid  #76B6F1;
+  cursor: pointer;
+}
+.empresa:hover::before{
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  background: #ffffff;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.empresa li {
+  border-bottom: 2px solid #ffffff;
+}
+
+.empresa:hover li{
+  border-bottom: 2px solid #76B6F1;
+}
+
 
 @media(max-width:800px) {
   .experiencia {
