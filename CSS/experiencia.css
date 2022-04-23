@@ -34,7 +34,7 @@
   border-radius: 4px;
   position: relative;
   border-bottom: 3px solid  white;
-  transition: 0.3s;
+
 
 }
 
@@ -47,7 +47,20 @@
   position: absolute;
   top: 20px;
   left: -4px;
+  
 }
+
+.empresa:hover::before{
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#76B6F1, #000000);
+  position: absolute;
+  top: 20px;
+  left: -6px;
+}
+
 
 .empresa-ano {
   position: absolute;
@@ -90,22 +103,20 @@
   border-bottom: 3px solid  #76B6F1;
   cursor: pointer;
 }
-.empresa:hover::before{
-  content: "";
-  display: block;
-  width: 0px;
-  height: 0px;
-  background: #ffffff;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
+
 .empresa li {
   border-bottom: 2px solid #ffffff;
 }
 
 .empresa:hover li{
   border-bottom: 2px solid #76B6F1;
+}
+
+
+.link {
+  color: currentColor;
+  text-decoration: none;
+
 }
 
 
